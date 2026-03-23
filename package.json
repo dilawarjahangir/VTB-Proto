@@ -1,0 +1,23 @@
+{
+  "name": "vtb-proto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Volume Trading Bot Prototype - A proprietary trading automation system",
+  "author": "Dilawar Jahangir <https://github.com/DilawarJahangir>",
+  "license": "PROPRIETARY",
+  "homepage": "https://DilawarJahangir.github.io/VTB-Proto",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DilawarJahangir/VTB-Proto.git"
+  },
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "build": "echo \"Build step for VTB\""
+  },
+  "keywords": [
+    "trading",
+    "bot",
+    "volume",
+    "automation"
+  ]
+}

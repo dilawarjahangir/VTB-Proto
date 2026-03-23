@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Volume Trading Bot Prototype">
+    <title>VTB - Volume Trading Bot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+        
+        #app {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 600px;
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>VTB</h1>
+        <p>Volume Trading Bot Prototype</p>
+        <p>A sophisticated trading automation system for volume analysis and execution.</p>
+        <div class="footer">
+            <p>&copy; 2024-2026 Dilawar Jahangir. All rights reserved.</p>
+            <p><a href="https://github.com/DilawarJahangir" style="color: #667eea; text-decoration: none;">GitHub</a></p>
+        </div>
+    </div>
+    
+    <script>
+        // SPA routing setup
+        window.addEventListener('popstate', () => {
+            handleRoute();
+        });
+        
+        function handleRoute() {
+            const path = window.location.pathname;
+            console.log('Route:', path);
+            // Your SPA routing logic goes here
+        }
+        
+        // Initialize
+        handleRoute();
+    </script>
+</body>
+</html>

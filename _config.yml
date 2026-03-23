@@ -1,0 +1,25 @@
+# GitHub Pages Jekyll Configuration
+# This file configures the GitHub Pages build process
+
+# Disable Jekyll processing since we're using a static SPA
+# The .nojekyll file disables this, but this serves as documentation
+
+title: VTB - Volume Trading Bot
+description: A proprietary prototype for advanced volume-based trading automation
+author: Dilawar Jahangir
+baseurl: /VTB-Proto
+url: https://DilawarJahangir.github.io
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins: []
+
+# Exclude files from processing
+exclude:
+  - node_modules
+  - .git
+  - .gitignore
+  - README.md
+  - LICENSE
+  - package.json
